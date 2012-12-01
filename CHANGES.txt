@@ -2,20 +2,12 @@
  Change History
 ================
 
-3.11.0a1 (2012-11-19)
+3.11.0a1 (2012-12-01)
 =====================
 
-New Features
-------------
+ZODB3 depends on:
 
-- ZODB3 has been split into 4 separate packages:
-
-  - persistent 4.0
-  - BTrees 4.0
-  - ZODB 4.0
-  - ZEO 4.0
-
-  The ZODB3 distribution is simply a meta-distribution, for backward
-  compatibility, that depends the others.
-
-See the changes logs in the other packages.
+- persistent 4.0
+- BTrees 4.0
+- ZODB 4.0
+- ZEO 4.0
