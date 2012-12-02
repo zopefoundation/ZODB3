@@ -11,7 +11,7 @@
 # FOR A PARTICULAR PURPOSE.
 #
 ##############################################################################
-VERSION = "3.11.0a1"
+VERSION = "3.11.0dev"
 
 from ez_setup import use_setuptools
 use_setuptools()
