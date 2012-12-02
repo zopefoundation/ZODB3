@@ -43,8 +43,6 @@ long_description = (
     open('CHANGES.txt').read()
     )
 
-tests_require = ['ZEO [test]', 'ZODB [test]', 'persistent [test]'],
-
 setup(name="ZODB3",
       version=VERSION,
       maintainer="Zope Foundation and Contributors",
@@ -61,4 +59,10 @@ setup(name="ZODB3",
           'BTrees >=4.0.0dev, <4.1dev',
           'transaction'],
       zip_safe = False,
+      extras_require = dict(
+          test=['ZEO [test]',
+                'ZODB [test]',
+                'BTrees [test]',
+                'persistent [test]'],
+          )
       )

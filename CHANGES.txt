@@ -2,6 +2,14 @@
  Change History
 ================
 
+3.11.0a2 (2012-12-02)
+=====================
+
+Fixed: The ZODB3 "test" extra was inadvertently removed.
+
+       Note that the text extra exists soley to allow other packages
+       to use ``ZODB [test]`` in their test dependencies.
+
 3.11.0a1 (2012-12-01)
 =====================
 
