@@ -11,7 +11,7 @@
 # FOR A PARTICULAR PURPOSE.
 #
 ##############################################################################
-VERSION = "3.11.0dev"
+VERSION = "3.11.0"
 
 from setuptools import setup
 import sys
