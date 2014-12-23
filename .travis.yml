@@ -1,13 +1,13 @@
 language: python
+sudo: false
 python:
     - 2.6
     - 2.7
     - 3.2
     - 3.3
 install:
-    - python bootstrap.py
-    - bin/buildout
+    - pip install .
 script:
-    - bin/test -v1
+    - python -c 'import ZODB, ZEO, BTrees, persistent, transaction'
 notifications:
     email: false
